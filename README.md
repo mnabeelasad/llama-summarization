@@ -40,7 +40,3 @@ This project integrates the **Llama 3.1** model from **AWS Bedrock** to summariz
 ## AWS Bedrock Configuration
 
 This project uses **AWS Bedrock** to access the **Llama 3.1** model for summarization. Make sure you have access to **AWS Bedrock** and have the correct permissions to use the Llama 3.1 model.
-
-## License
-
-This project is licensed under the MIT License.
