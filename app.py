@@ -3,7 +3,6 @@ from text_controller import summarize_using_llama
 from dotenv import load_dotenv
 import os
 
-# Load environment variables from .env file
 load_dotenv()
 
 # Initialize Flask app
@@ -20,14 +19,13 @@ def summarize():
         summary_type = data.get("summary", "one_by_one")
         texts = data.get("texts")
 
-        # Validate the texts field
         if not texts or not isinstance(texts, list):
             return jsonify({"error": "'texts' must be a non-empty list"}), 400
 
         # Summarize the texts
         summaries = []
         for text in texts:
-            summary = summarize_using_llama(text)  # Call the summarization function from text_controller
+            summary = summarize_using_llama(text)  
             summaries.append({
                 "original_text": text,
                 "summary": summary
