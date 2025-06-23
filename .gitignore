@@ -1,0 +1,17 @@
+# Ignore confidential or sensitive files
+sample.txt
+
+# Ignore .env and other sensitive files
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/

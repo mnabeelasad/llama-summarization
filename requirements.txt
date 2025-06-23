@@ -1,0 +1,6 @@
+Flask==2.2.3           # Flask framework for the web application
+pymongo==4.2.0         # MongoDB client for Python (if you're using MongoDB)
+gunicorn==20.1.0       # WSGI HTTP Server for deploying Flask in production
+python-dotenv==0.21.0  # To load environment variables from a .env file
+boto3==1.26.0          # AWS SDK for Python to interact with Bedrock
+jsons==1.0.0           # JSON serializer library (if needed for custom JSON handling)
