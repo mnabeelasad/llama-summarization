@@ -4,28 +4,17 @@ This project integrates the **Llama 3.1** model from **AWS Bedrock** to summariz
 
 ## Setup Instructions
 
-1. Clone this repository:
-    ```bash
-    git clone <repository_url>
-    ```
 
-2. Install required dependencies:
-    ```bash
+
+1. Install required dependencies:
     pip install -r requirements.txt
-    ```
+   
 
-3. Set up AWS credentials:
-    - Configure your AWS CLI:
-    ```bash
-    aws configure
-    ```
 
-4. Run the Flask app:
-    ```bash
+2. Run the Flask app:
     python app.py
-    ```
 
-5. Test the API with **Postman**:
+3. Test the API with **Postman**:
     - Send a **POST** request to `http://127.0.0.1:5000/summarize` with the following JSON body:
     ```json
     {
